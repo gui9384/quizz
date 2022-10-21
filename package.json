@@ -17,6 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "server": "webpack server --mode development",
     "build": "webpack --mode production",
     "test": "react-scripts test",
