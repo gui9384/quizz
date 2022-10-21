@@ -1,0 +1,88 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.score{
+  font-size: 14;
+  font-weight: 800;
+  color:#888;
+}
+/* Message status */
+.css-cpgvjg-MuiSnackbar-root{
+  left: auto !important; 
+  right: auto !important;
+}
+.question{
+  text-align: center;
+  margin: 20px 0;
+}
+.loading{
+ position: absolute;
+ left: 45%;
+ top:45%;
+  text-align: center;
+  font-size: 24px;
+}
+@media only screen and (max-width: 375px) {
+  .loading{
+  left: 40%;
+  top:40%;
+  }
+}
+.start{
+  display: block;
+  margin: 50vh auto;
+  font-size: 24px;
+  padding:0.35em 1.2em;
+  border:0.1em solid #0493FC;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  font-weight:300;
+  color:#0493FC;
+  background-color: #FFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+.notStart{
+  display: none;
+}
+
+.start:hover{
+  border:0.12em solid #8dcfff;
+  color:#8dcfff;
+}
+
+
+/* counter  */
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text {
+  color: #aaa;
+}
+.value {
+  font-size: 40px;
+}
+.info {
+  max-width: 360px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+.red{
+  color:red;
+}
